@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assesment-project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#" class="nav-logo">
+          <h2 class="logo-text">Test Logo</h2>
+        </a>
+
+        <ul class="nav-menu">
+          <button id="menu-close-button" class="fas fa-times"></button>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <button id="Contact-us-button">
+              <a href="#contact" class="nav-link">Contact</a>
+            </button>
+          </li>
+        </ul>
+
+        <button id="menu-open-button" class="fas fa-bars"></button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <div class="section-content">
+          <div class="hero-details">
+            <h1 class="title">
+              BOOST YOUR BRAND WITH INNOVATIVE DIGITAL MARKETING
+            </h1>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+              voluptas tempora ex minima necessitatibus natus!
+            </p>
+
+            <div class="buttons">
+              <button type="button" id="startNow">Start Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="section-content">
+          <h2 class="why-choose-us">Why choose us</h2>
+          <div class="about-details-first-section">
+            <img
+              src="Assets/Section-1-banner.jpg"
+              alt="About"
+              class="about-image-first"
+            />
+            <h2 class="about-content-heading">
+              Solution Tailored specifically for your business need
+            </h2>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              repellendus sit maxime corporis recusandae natus molestiae
+              reiciendis architecto amet sunt. Dolor iste quae, iure voluptatum
+              blanditiis consequuntur voluptates. Doloribus, iste.
+            </p>
+            <button><a href="#" class="read-more-button">Read More</a></button>
+          </div>
+          <div class="section-content">
+            <div class="about-details-second-section">
+              <img
+                src="Assets/Section-2-banner.jpeg"
+                alt="About"
+                class="about-image-second"
+              />
+              <h2 class="about-content-heading">
+                Creative excellence elevates every project
+              </h2>
+              <p class="text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Voluptate non natus sit alias deserunt maxime veniam nemo!
+                Cupiditate illum architecto quidem hic, nam quis ipsa rerum
+                error, quae voluptatum maiores?Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Quaerat, nam.
+              </p>
+              <button>
+                <a href="#" class="read-more-button">Read More</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu-section" id="menu">
+        <h2 class="section-title">Services</h2>
+        <div class="section-content">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <img src="Assets/bitcoin.png" alt="SEO" class="menu-image" />
+              <div class="menu-details">
+                <h3 class="name">SEO Marketing</h3>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img
+                src="Assets/content-marketing.png"
+                alt="Content Marketing"
+                class="menu-image"
+              />
+              <div class="menu-details">
+                <h3 class="name">Content Marketing</h3>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img
+                src="Assets/Social-media.png"
+                alt="Social media management"
+                class="menu-image"
+              />
+              <div class="menu-details">
+                <h3 class="name">Social media management</h3>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img
+                src="Assets/ppc-marketing.png"
+                alt="PPC"
+                class="menu-image"
+              />
+              <div class="menu-details">
+                <h3 class="name">PPC</h3>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img
+                src="Assets/content-marketing.png"
+                alt="Content Marketing"
+                class="menu-image"
+              />
+              <div class="menu-details">
+                <h3 class="name">Lorem, ipsum.</h3>
+              </div>
+            </li>
+            <li class="menu-item">
+              <img
+                src="Assets/E-mail.png"
+                alt="E-mail Marketing"
+                class="menu-image"
+              />
+              <div class="menu-details">
+                <h3 class="name">E-mail Marketing</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="testimonials-section" id="testimonials">
+        <h2 class="section-title">Testimonials</h2>
+        <div class="section-content">
+          <div class="slider-container swiper">
+            <div class="slider-wrapper">
+              <ul class="testimonials-list swiper-wrapper">
+                <li class="testimonial swiper-slide">
+                  <img src="Assets/user-1.jpeg" alt="User" class="user-image" />
+                  <h3 class="name">Sarah Johnson</h3>
+                  <i class="feedback"
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi voluptatibus temporibus suscipit.</i
+                  >
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="Assets/user-2.jpeg" alt="User" class="user-image" />
+                  <h3 class="name">James Wilson</h3>
+                  <i class="feedback"
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Id, porro.</i
+                  >
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="Assets/user-3.jpeg" alt="User" class="user-image" />
+                  <h3 class="name">Michael Brown</h3>
+
+                  <i class="feedback"
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellat, incidunt?</i
+                  >
+                </li>
+                <li class="testimonial swiper-slide">
+                  <img src="Assets/user-4.jpeg" alt="User" class="user-image" />
+                  <h3 class="name">Emily Harris</h3>
+                  <i class="feedback"
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cupiditate molestiae quod sed necessitatibus dicta sit sunt
+                    nihil repudiandae omnis ut!</i
+                  >
+                </li>
+              </ul>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-slide-button swiper-button-prev"></div>
+              <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer-section">
+        <div class="row">
+          <div class="footer">
+            <h2>Description</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
+              aspernatur cupiditate nihil natus et voluptatibus temporibus?
+              Perspiciatis reiciendis veritatis dolorum assumenda perferendis
+              repellat vel incidunt saepe, impedit quos cum illo consequatur
+              doloremque, libero ratione mollitia ut accusantium rem adipisci
+              omnis, aspernatur totam velit commodi ipsa. Illo laborum deleniti
+              libero veritatis.
+            </p>
+          </div>
+          <div class="footer">
+            <h2>Services</h2>
+            <ul>
+              <li>SEO marketing</li>
+              <li>Content marketing</li>
+              <li>E-mail marketing</li>
+              <li>Social media management</li>
+              <li>PPC</li>
+            </ul>
+          </div>
+          <div class="footer">
+            <h2>Contact Us</h2>
+            <ul>
+              <li class="contact-info">
+                <i class="fa-regular fa-envelope"></i>
+                <p>info@XYZwebsite.com</p>
+              </li>
+              <li class="contact-info">
+                <i class="fa-solid fa-phone"></i>
+                <p>(123) 456-78909</p>
+              </li>
+            </ul>
+            <div class="social-link-list">
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
